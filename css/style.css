@@ -45,17 +45,6 @@
   src: url('fonts/OpenSansExtraBold.eot');
   src: url('fonts/OpenSansExtraBold.eot') format('embedded-opentype'), url('fonts/OpenSansExtraBold.woff2') format('woff2'), url('fonts/OpenSansExtraBold.woff') format('woff'), url('fonts/OpenSansExtraBold.ttf') format('truetype'), url('fonts/OpenSansExtraBold.svg#OpenSansExtraBold') format('svg');
 }
-/*h1 – 32 пикселя.
-
-h2 – 24 пикселя.
-
-h3 – 19 пикселям.
-
-h4 – 16 пикселей.
-
-h5 – 13 пикселей.
-
-h6 – 11 пикселей.*/
 body {
   vertical-align: center;
   overflow-x: hidden;
@@ -73,7 +62,6 @@ body a:active {
 }
 nav.navbar-fixed-top {
   margin-top: 29px;
-  height: 80px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -115,7 +103,7 @@ nav.navbar-fixed-top.sticky .container {
   -moz-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
   box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
 }
-#Header {
+section#Header {
   background: url("../img/bground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,25 +113,25 @@ nav.navbar-fixed-top.sticky .container {
   padding-top: 280px;
   color: #FFFFFF;
 }
-#Header h1 {
+section#Header h1 {
   font-family: 'Raleway-Bold';
   font-size: 40px;
   margin-bottom: 0px;
 }
-#Header h2 {
+section#Header h2 {
   margin-bottom: 50px;
   margin-top: 0px;
   font-family: 'OpenSansSemibold';
   font-size: 22px;
 }
-#Header h4 {
+section#Header h4 {
   margin: 20px 0px;
   font-family: 'OpenSansRegular';
 }
-#Header .fa-angle-right {
+section#Header .fa-angle-right {
   margin-right: 10px;
 }
-#Header button {
+section#Header button {
   margin-top: 80px;
   height: 50px;
   width: 210px;
@@ -154,78 +142,78 @@ nav.navbar-fixed-top.sticky .container {
   border: none;
   display: block;
 }
-#Header button h4 {
+section#Header button h4 {
   font-family: 'OpenSansSemibold';
   margin: 0 auto;
   text-align: left;
 }
-#Header button #Icon_Download {
+section#Header button #Icon_Download {
   margin: auto 20px;
 }
-#Header .adaptive-tech {
+section#Header .adaptive-tech {
   position: absolute;
   z-index: 4;
 }
-#Header .adaptive-tech img#first {
+section#Header .adaptive-tech img#first {
   position: absolute;
   left: 640px;
   z-index: 6;
 }
-#Header .adaptive-tech img#second {
+section#Header .adaptive-tech img#second {
   position: absolute;
   left: 700px;
   top: -63px;
   z-index: 5;
 }
-#Key_Features {
+section#Key_Features {
   position: relative;
   z-index: 2;
   margin-bottom: 70px;
 }
-#Key_Features h1 {
+section#Key_Features h1 {
   font-family: 'Raleway-Bold';
   font-size: 28px;
   margin: 0 auto;
   text-transform: uppercase;
   color: #1AB798;
 }
-#Key_Features .title {
+section#Key_Features .title {
   margin-top: 120px;
   margin-bottom: 65px;
 }
-#Key_Features img {
+section#Key_Features .title img {
   margin-top: -10px;
 }
-#Key_Features .paragraph {
+section#Key_Features .paragraph {
   margin-bottom: 80px;
   font-size: 18px;
   font-family: 'OpenSansRegular';
 }
-#Key_Features .Shape {
-  margin-top: 20px;
-}
-#Key_Features .Amet h4 {
+section#Key_Features .Amet h4 {
   font-size: 18px;
   font-family: 'Raleway-Bold';
 }
-#Key_Features .Amet p {
+section#Key_Features .Amet p {
   font-size: 13px;
   font-family: 'OpenSansRegular';
 }
-#Key_Features .Assorted {
+section#Key_Features .Assorted {
   margin-bottom: 110px;
 }
-#Video {
+section#Key_Features .Assorted .Shape {
+  margin-top: 20px;
+}
+section#Video {
   background-color: #31D4E7;
 }
-#Video h3 {
+section#Video h3 {
   margin-top: 74px;
   margin-bottom: 0px;
   font-family: 'Raleway-Bold';
   text-transform: uppercase;
   color: #222222;
 }
-#Video h4 {
+section#Video h4 {
   margin-top: 0px;
   padding-top: 0px;
   margin-bottom: 27px;
@@ -233,95 +221,95 @@ nav.navbar-fixed-top.sticky .container {
   line-height: 1.7;
   font-family: 'OpenSansRegular';
 }
-#Video li {
+section#Video li {
   border-radius: 500px;
   -moz-border-radius: 500px;
   -webkit-border-radius: 500px;
   height: 67px;
   width: 67px;
 }
-#Video li.icon {
+section#Video li.icon {
   background: url(../img/icon.png) no-repeat center;
   background-color: #0098CD;
 }
-#Video li.icon1 {
+section#Video li.icon1 {
   background: url(../img/icon1.png) no-repeat center;
   background-color: #0098CD;
 }
-#Video li.icon2 {
+section#Video li.icon2 {
   background: url(../img/icon2.png) no-repeat center;
   background-color: #0098CD;
 }
-#Video li:hover {
+section#Video li:hover {
   background-color: #222222;
 }
-#Video ul.list-inline a {
+section#Video ul.list-inline a {
   display: inline-block;
   text-decoration: none;
   margin-bottom: 140px;
   margin-left: 20px;
 }
-#Video .video {
+section#Video .video {
   margin-top: 120px;
 }
-#Team ul {
+section#Team ul {
   padding: 0;
 }
-#Team .title {
+section#Team .title {
   display: inline-block;
   padding-top: 92px;
   padding-bottom: 40px;
 }
-#Team .title h1 {
+section#Team .title h1 {
   font-family: 'Raleway-Bold';
   font-size: 28px;
   margin: 0 auto;
   text-transform: uppercase;
   color: #1AB798;
 }
-#Team .title h1 img {
+section#Team .title h1 img {
   margin-top: -10px;
 }
-#Team h4 {
+section#Team h4 {
   font-family: 'OpenSansSemibold';
 }
-#Team .layer {
+section#Team .layer {
   margin-top: 105px;
   padding-left: auto;
   padding-right: auto;
   text-align: center;
 }
-#Team .layer:hover h4 {
+section#Team .layer:hover h4 {
   color: #1AB798;
 }
-#Team .layer li {
+section#Team .layer li {
   display: inline-block;
   max-width: 100%;
   position: relative;
   overflow: hidden;
 }
-#Team .layer li:hover .descr {
+section#Team .layer li:hover .descr {
   top: 0;
   display: block;
 }
-#Team .layer li img {
+section#Team .layer li img {
   max-width: 100%;
   display: block;
 }
-#Team .layer li i {
-  color: white;
-}
-#Team .layer li a {
-  padding-top: 70px;
+section#Team .layer li a {
   width: 40px;
   height: 40px;
 }
-#Team .layer p {
+section#Team .layer li a i {
+  color: white;
+  padding-top: 10px;
+}
+section#Team .layer p {
   color: #A7ABB0;
   font-size: 13px;
   font-family: 'OpenSansRegular';
 }
-#Team .layer span.descr {
+section#Team .layer span.descr {
   position: absolute;
   top: 100%;
   left: 0;
@@ -334,99 +322,101 @@ nav.navbar-fixed-top.sticky .container {
   -o-transition: all .5s;
   transition: all .5s;
 }
-#Team .layer span.descr ul {
-  margin-top: 85px;
+section#Team .layer span.descr ul {
+  margin-left: 0px;
+  margin-top: 30%;
 }
-#Team .layer span.descr ul i {
+section#Team .layer span.descr ul a i {
   padding-top: 10px;
   width: 40px;
   height: 40px;
   background-color: rgba(0, 0, 0, 0.4);
   font-size: 20px;
 }
-#Team .layer span.descr p {
-  padding-top: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
+section#Team .layer span.descr p {
+  padding-top: 8%;
+  padding-left: 9%;
+  padding-right: 9%;
+  margin-bottom: 0px;
   text-align: center;
   color: #fff;
   font-family: 'OpenSansRegular';
 }
-#Customers {
+section#Customers {
   padding-top: 140px;
   padding-bottom: 190px;
 }
-#Customers .carousel-indicators li {
+section#Customers .carousel-indicators li {
   border: none;
   height: 10px;
   width: 10px;
   background-color: #D4D3D4;
   margin-bottom: -90px;
 }
-#Customers .carousel-indicators li.active {
+section#Customers .carousel-indicators li.active {
   background-color: #1AB798;
   border: none;
   height: 10px;
   width: 10px;
 }
-#Customers .item img {
+section#Customers .item img {
   margin: 30px auto;
   border: 3px solid #C4C7C7;
   border-radius: 500px;
 }
-#Customers .item h3 {
+section#Customers .item h3 {
   font-family: 'OpenSansSemibold';
   font-size: 18px;
 }
-#Customers .item h5 {
+section#Customers .item h5 {
   font-family: 'OpenSansRegular';
   margin: 5px auto 110px auto;
   color: #646464;
 }
-#Customers .item p {
+section#Customers .item p {
   font-family: 'OpenSansRegular';
   font-size: 18px;
   width: 80%;
   margin: 0 auto;
   line-height: 2;
 }
-#Customers h1 {
+section#Customers h1 {
   font-size: 28px;
   font-family: 'Raleway-Bold';
   margin: 0 auto;
   text-transform: uppercase;
   color: #1AB798;
 }
-#Customers img {
+section#Customers img {
   margin-top: -10px;
 }
-#Contacts {
+section#Contacts {
   background: url("../img/contacts.jpg");
   background-size: cover;
   color: #fff;
   font-family: 'OpenSansRegular';
 }
-#Contacts h2 {
+section#Contacts h2 {
   font-family: 'Raleway-Regular';
   margin: 0 auto;
 }
-#Contacts p {
+section#Contacts p {
   font-size: 14px;
   font-family: 'OpenSansRegular';
 }
-#Contacts .title {
+section#Contacts .title {
   margin-top: 66px;
   margin-bottom: 95px;
 }
-#Contacts .title img {
+section#Contacts .title img {
   margin-top: -10px;
 }
-#Contacts .title h1 {
+section#Contacts .title h1 {
   font-size: 28px;
   font-family: 'Raleway-Bold';
   text-transform: uppercase;
 }
-#Contacts ul.socials li {
+section#Contacts ul.socials li {
   border-radius: 500px;
   vertical-align: middle;
   margin-right: 14px;
@@ -435,50 +425,50 @@ nav.navbar-fixed-top.sticky .container {
   width: 40px;
   height: 40px;
 }
-#Contacts ul.socials li.f {
+section#Contacts ul.socials li.f {
   background-color: #3B5997;
 }
-#Contacts ul.socials li.t {
+section#Contacts ul.socials li.t {
   background-color: #3EC2F3;
 }
-#Contacts ul.socials li.g {
+section#Contacts ul.socials li.g {
   background-color: #E44C41;
 }
-#Contacts ul.socials li:hover {
+section#Contacts ul.socials li:hover {
   opacity: 0.6;
 }
-#Contacts ul.socials li a i {
+section#Contacts ul.socials li a i {
   font-size: 23px;
   color: #fff;
 }
-#Contacts ul.socials li a i.fa-facebook {
+section#Contacts ul.socials li a i.fa-facebook {
   padding: 9px;
 }
-#Contacts ul.socials li a i.fa-twitter {
+section#Contacts ul.socials li a i.fa-twitter {
   padding: 9px 6px;
 }
-#Contacts ul.socials li a i.fa-google-plus {
+section#Contacts ul.socials li a i.fa-google-plus {
   padding: 8px 1px;
 }
-#Contacts ul.contacts a {
+section#Contacts ul.contacts a {
   color: #BFACE2;
   text-decoration: none;
 }
-#Contacts ul.contacts a:hover {
+section#Contacts ul.contacts a:hover {
   color: #fff;
 }
-#Contacts .form-group input#Name {
+section#Contacts .form-group input#Name {
   min-height: 40px;
 }
-#Contacts .form-group input#Email {
+section#Contacts .form-group input#Email {
   min-height: 40px;
 }
-#Contacts .form-group input#Message {
+section#Contacts .form-group input#Message {
   height: 179px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-#Contacts .form-group button.btn-default {
+section#Contacts .form-group button.btn-default {
   font-family: 'OpenSansRegular';
   text-transform: uppercase;
   font-size: 22px;
@@ -488,14 +478,693 @@ nav.navbar-fixed-top.sticky .container {
   color: #fff;
   margin-bottom: 55px;
 }
-#Contacts #Footer {
+section#Contacts #Footer {
   padding-top: 40px;
   padding-bottom: 25px;
   border-top: 1px solid #EAEAEA;
 }
-#Contacts #Footer p,
-#Contacts #Footer a {
+section#Contacts #Footer p,
+section#Contacts #Footer a {
   color: #EAEAEA;
 }
+/*============    	АДАПТИВ    ===========*/
+.dropdown-toggle {
+  border: 1px solid #000;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: #1AB798;
+  margin-left: -10px;
+}
+.dropdown-toggle:hover {
+  background-color: #1AB798;
+  color: #fff;
+}
+.dropdown-toggle i {
+  margin-top: 15px;
+  font-size: 16px;
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  nav.navbar-fixed-top {
+    margin-top: 10px;
+  }
+  nav.navbar-fixed-top .container h1 {
+    font-size: 20px;
+    margin: 12px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu {
+    margin-top: 25px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu li {
+    padding: 10px;
+  }
+  nav.navbar-fixed-top.sticky {
+    margin-top: 0px;
+    position: fixed;
+    height: 0px;
+  }
+  nav.navbar-fixed-top.sticky .container {
+    -webkit-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+  }
+  section#Header {
+    padding-top: 130px;
+    height: 750px;
+  }
+  section#Header h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  section#Header h2 {
+    font-size: 13px;
+    text-align: center;
+  }
+  section#Header h4 {
+    font-size: 12px;
+    margin-left: 10%;
+  }
+  section#Header button {
+    width: auto;
+    margin: 80px auto 0px auto;
+  }
+  section#Header button h4 {
+    font-size: 12px;
+  }
+  section#Header button #Icon_Download {
+    margin: auto 5px;
+  }
+  section#Header .adaptive-tech {
+    position: static;
+  }
+  section#Header .adaptive-tech img#first {
+    width: 120px;
+    position: absolute;
+    left: 25%;
+    margin: auto;
+    top: 598px;
+  }
+  section#Header .adaptive-tech img#second {
+    width: 133px;
+    position: absolute;
+    left: 33%;
+    top: 576px;
+  }
+  section#Key_Features {
+    margin-bottom: 20px;
+  }
+  section#Key_Features h1 {
+    font-size: 16px;
+  }
+  section#Key_Features .title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  section#Key_Features .title img {
+    margin-top: -5px;
+  }
+  section#Key_Features .paragraph p {
+    font-size: 12px;
+  }
+  section#Key_Features .Amet h4 {
+    font-size: 14px;
+  }
+  section#Key_Features .Amet p {
+    font-size: 12px;
+  }
+  section#Key_Features .Assorted {
+    margin-bottom: 0px;
+  }
+  section#Video {
+    text-align: center;
+  }
+  section#Video h3 {
+    font-size: 18px;
+  }
+  section#Video h4 {
+    font-size: 12px;
+  }
+  section#Video li {
+    height: 50px;
+    width: 50px;
+  }
+  section#Video ul {
+    align: center;
+    text-align: center;
+  }
+  section#Video ul.list-inline a {
+    margin: auto 8px ;
+  }
+  section#Video .video {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  section#Team {
+    text-align: center;
+    margin: 0 auto;
+  }
+  section#Team .title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  section#Team .title h1 {
+    font-size: 16px;
+  }
+  section#Team .title h1 img {
+    margin-top: -5px;
+  }
+  section#Team h4 {
+    font-size: 14px;
+  }
+  section#Team .layer {
+    margin-top: 50px;
+    width: 99%;
+  }
+  section#Customers {
+    padding-top: 30px;
+    padding-bottom: 120px;
+  }
+  section#Customers h1 {
+    font-size: 16px;
+  }
+  section#Customers .title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  section#Customers .title img {
+    margin-top: -5px;
+  }
+  section#Customers .item h3 {
+    font-size: 16px;
+  }
+  section#Customers .item h5 {
+    margin: 5px auto 20px auto;
+  }
+  section#Customers .item p {
+    font-size: 10px;
+  }
+  section#Contacts {
+    text-align: center;
+  }
+  section#Contacts .title {
+    margin-top: 20x;
+    margin-bottom: 50px;
+  }
+  section#Contacts .title img {
+    margin-top: -5px;
+  }
+  section#Contacts .title h1 {
+    font-size: 16px;
+  }
+  section#Contacts h2 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  section#Contacts p {
+    font-size: 12px;
+  }
+  section#Contacts ul {
+    text-align: center;
+  }
+  section#Contacts .form-group input#Name {
+    margin-bottom: 30px;
+  }
+  section#Contacts .form-group button.btn-default {
+    font-size: 14px;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  section#Contacts #Footer p,
+  section#Contacts #Footer a {
+    text-align: center;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  nav.navbar-fixed-top {
+    margin-top: 10px;
+  }
+  nav.navbar-fixed-top .container h1 {
+    font-size: 20px;
+    margin: 12px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu {
+    margin-top: 25px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu li {
+    padding: 10px;
+  }
+  nav.navbar-fixed-top.sticky {
+    margin-top: 0px;
+    position: fixed;
+    height: 0px;
+  }
+  nav.navbar-fixed-top.sticky .container {
+    -webkit-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+  }
+  section#Header {
+    padding-top: 130px;
+    height: 800px;
+  }
+  section#Header h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  section#Header h2 {
+    font-size: 13px;
+    text-align: center;
+  }
+  section#Header h4 {
+    font-size: 12px;
+    margin-left: 10%;
+  }
+  section#Header button {
+    margin: 80px auto 0px auto;
+  }
+  section#Header button h4 {
+    font-size: 16px;
+  }
+  section#Header .adaptive-tech {
+    position: static;
+    width: 100%;
+  }
+  section#Header .adaptive-tech img#first {
+    width: 200px;
+    position: absolute;
+    left: 12%;
+    margin: auto;
+    top: 529px;
+  }
+  section#Header .adaptive-tech img#second {
+    width: 222px;
+    position: absolute;
+    left: 19%;
+    top: 493px;
+  }
+  section#Key_Features {
+    margin-bottom: 20px;
+  }
+  section#Key_Features h1 {
+    font-size: 16px;
+  }
+  section#Key_Features .title {
+    margin-top: 75px;
+    margin-bottom: 40px;
+  }
+  section#Key_Features .title img {
+    margin-top: -5px;
+  }
+  section#Key_Features .paragraph p {
+    font-size: 12px;
+  }
+  section#Key_Features .Amet {
+    margin: 0 auto;
+    text-align: center;
+  }
+  section#Key_Features .Amet h4 {
+    font-size: 14px;
+  }
+  section#Key_Features .Amet p {
+    font-size: 12px;
+  }
+  section#Key_Features .Assorted {
+    margin-bottom: 0px;
+    vertical-align: middle;
+  }
+  section#Key_Features .Assorted .Shape img.img-responsive {
+    margin: 0 auto;
+  }
+  section#Key_Features #screen {
+    margin-top: 20px;
+  }
+  section#Key_Features #screen img.img-responsive {
+    margin: 0 auto;
+  }
+  section#Video {
+    text-align: center;
+  }
+  section#Video h3 {
+    font-size: 18px;
+  }
+  section#Video h4 {
+    font-size: 12px;
+  }
+  section#Video li {
+    height: 50px;
+    width: 50px;
+  }
+  section#Video ul {
+    align: center;
+    text-align: center;
+  }
+  section#Video ul.list-inline a {
+    margin: auto 8px ;
+  }
+  section#Video .video {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  section#Team {
+    text-align: center;
+    margin: 0 auto;
+  }
+  section#Team .title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  section#Team .title h1 {
+    font-size: 16px;
+  }
+  section#Team .title h1 img {
+    margin-top: -5px;
+  }
+  section#Team h4 {
+    font-size: 14px;
+  }
+  section#Team .layer {
+    text-align: center;
+    margin-top: 50px;
+    width: 99%;
+  }
+  section#Team .layer li {
+    display: block;
+    max-width: 270px;
+    margin: 0 auto;
+  }
+  section#Team .layer li span.descr ul {
+    margin-left: 0px;
+  }
+  section#Team .layer li span.descr ul a {
+    display: inline-block;
+  }
+  section#Customers {
+    padding-top: 30px;
+    padding-bottom: 120px;
+  }
+  section#Customers h1 {
+    font-size: 16px;
+  }
+  section#Customers .title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  section#Customers .title img {
+    margin-top: -5px;
+  }
+  section#Customers .item h3 {
+    font-size: 16px;
+  }
+  section#Customers .item h5 {
+    margin: 5px auto 20px auto;
+  }
+  section#Customers .item p {
+    font-size: 10px;
+  }
+  section#Contacts {
+    text-align: center;
+  }
+  section#Contacts .title {
+    margin-top: 20x;
+    margin-bottom: 50px;
+  }
+  section#Contacts .title img {
+    margin-top: -5px;
+  }
+  section#Contacts .title h1 {
+    font-size: 16px;
+  }
+  section#Contacts h2 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  section#Contacts p {
+    font-size: 12px;
+  }
+  section#Contacts ul {
+    text-align: center;
+  }
+  section#Contacts .form-group input#Name {
+    margin-bottom: 30px;
+  }
+  section#Contacts .form-group button.btn-default {
+    font-size: 14px;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  section#Contacts #Footer p,
+  section#Contacts #Footer a {
+    text-align: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  nav.navbar-fixed-top {
+    margin-top: 10px;
+  }
+  nav.navbar-fixed-top .container h1 {
+    font-size: 20px;
+    margin: 12px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu {
+    margin-top: 25px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu li {
+    padding: 10px;
+  }
+  nav.navbar-fixed-top.sticky {
+    margin-top: 0px;
+    position: fixed;
+    height: 0px;
+  }
+  nav.navbar-fixed-top.sticky .container {
+    -webkit-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+  }
+  section#Header {
+    padding-top: 130px;
+    height: 850px;
+  }
+  section#Header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  section#Header h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  section#Header h4 {
+    font-size: 16px;
+    margin-left: 10%;
+  }
+  section#Header button {
+    margin: 80px auto 0px auto;
+  }
+  section#Header button h4 {
+    font-size: 16px;
+  }
+  section#Header .adaptive-tech {
+    position: static;
+    width: 100%;
+  }
+  section#Header .adaptive-tech img#first {
+    width: 200px;
+    position: absolute;
+    left: 28%;
+    margin: auto;
+    top: 580px;
+  }
+  section#Header .adaptive-tech img#second {
+    width: 222px;
+    position: absolute;
+    left: 33%;
+    top: 544px;
+  }
+  section#Key_Features {
+    margin-bottom: 20px;
+  }
+  section#Key_Features #screen_big {
+    margin-top: 60px;
+  }
+  section#Key_Features .title {
+    margin-top: 75px;
+    margin-bottom: 40px;
+  }
+  section#Key_Features .title img {
+    margin-top: -5px;
+  }
+  section#Key_Features .paragraph p {
+    font-size: 16px;
+  }
+  section#Key_Features .Amet {
+    margin: 0 auto;
+    text-align: center;
+  }
+  section#Key_Features .Amet h4 {
+    font-size: 14px;
+  }
+  section#Key_Features .Amet p {
+    font-size: 14px;
+  }
+  section#Key_Features .Assorted {
+    margin-bottom: 0px;
+    vertical-align: middle;
+  }
+  section#Key_Features .Assorted .Shape img.img-responsive {
+    margin: 0 auto;
+  }
+  section#Key_Features #screen {
+    margin-top: 20px;
+  }
+  section#Key_Features #screen img.img-responsive {
+    margin: 0 auto;
+  }
+  section#Video {
+    text-align: center;
+  }
+  section#Video li {
+    height: 50px;
+    width: 50px;
+  }
+  section#Video ul {
+    align: center;
+    text-align: center;
+  }
+  section#Video ul.list-inline a {
+    margin: auto 8px ;
+  }
+  section#Video .video {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  section#Team {
+    text-align: center;
+    margin: 0 auto;
+  }
+  section#Team .title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  section#Team .title img {
+    margin-top: -5px;
+  }
+  section#Team h4 {
+    font-size: 14px;
+  }
+  section#Customers {
+    padding-top: 30px;
+    padding-bottom: 120px;
+  }
+  section#Customers .title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  section#Customers .title img {
+    margin-top: -5px;
+  }
+  section#Customers .item h5 {
+    margin: 5px auto 20px auto;
+  }
+  section#Customers .item p {
+    font-size: 10px;
+  }
+  section#Contacts {
+    text-align: center;
+  }
+  section#Contacts .title {
+    margin-top: 20x;
+    margin-bottom: 50px;
+  }
+  section#Contacts .title img {
+    margin-top: -5px;
+  }
+  section#Contacts h2 {
+    padding-bottom: 10px;
+  }
+  section#Contacts ul {
+    text-align: center;
+  }
+  section#Contacts .form-group input#Name {
+    margin-bottom: 30px;
+  }
+  section#Contacts .form-group button.btn-default {
+    font-size: 14px;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  section#Contacts #Footer p,
+  section#Contacts #Footer a {
+    text-align: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  section#Header .adaptive-tech img#first {
+    left: 410px;
+    height: 385px;
+    width: 222px;
+    top: 180px;
+  }
+  section#Header .adaptive-tech img#second {
+    left: 400px;
+    height: 425px;
+    width: 245px;
+    left: 449px;
+    top: 140px;
+  }
+  section#Key_Features .Assorted {
+    margin-bottom: 0px;
+  }
+  section#Key_Features #screen {
+    margin-top: 40px;
+  }
+  section#Video {
+    text-align: center;
+  }
+  section#Video li {
+    height: 50px;
+    width: 50px;
+  }
+  section#Video ul {
+    align: center;
+    text-align: center;
+  }
+  section#Video ul.list-inline a {
+    margin: auto 8px ;
+  }
+  section#Video .video {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  section#Header .adaptive-tech img#first {
+    left: 440px;
+  }
+  section#Header .adaptive-tech img#second {
+    left: 500px;
+  }
+  section#Team .layer span.descr ul {
+    margin-top: 40%;
+  }
+}
+/*h1 – 32 пикселя.
+
+h2 – 24 пикселя.
+
+h3 – 19 пикселям.
+
+h4 – 16 пикселей.
+
+h5 – 13 пикселей.
+
+h6 – 11 пикселей.*/
 
 /*# sourceMappingURL=style.css.map */

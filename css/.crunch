@@ -16,7 +16,27 @@
 				}
 			],
 			"sources": [
+				"media.less",
 				"style.less"
+			]
+		},
+		"media.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "media.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"media.less"
 			]
 		}
 	}

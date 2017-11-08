@@ -19,15 +19,15 @@
         
 <body>
 
-<nav class="navbar-fixed-top hidden-sm wow fadeInDown" data-wow-delay="0.2s" id="menu">
+<nav class="navbar-fixed-top hidden-xs" id="menu">
     <div class="container">
          <div class="row">
-            <div class="col-md-6 text-left" >         
+            <div class="col-xs-1 text-left" >         
                  <h1>Mobileapp</h1>
              </div>
-            <div class="col-md-6 text-right" >
+            <div class="col-xs-11 text-right" >
                  <ul class="list-inline">  
-                    <li> <a href="#" title="link">Home</a></li>
+                    <li> <a href="#Header" title="link">Home</a></li>
                     <li> <a href="#Key_Features" title="link">Features</a></li>
                     <li> <a href="#Team" title="link">Team</a></li>
                     <li> <a href="#Video" title="link">Testimonials</a></li>
@@ -38,10 +38,30 @@
     </div>
 </nav>
 
+<nav class="navbar-fixed-top visible-xs">
+	<div class="container">
+		<div class="row">
+	  		<div class="col-xs-4 text-left">
+	          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars"></i></a>
+	        	<ul class="dropdown-menu">
+	                <li> <a href="#Header" title="link">Home</a></li>
+	                <li> <a href="#Key_Features" title="link">Features</a></li>
+	                <li> <a href="#Team" title="link">Team</a></li>
+	                <li> <a href="#Video" title="link">Testimonials</a></li>
+	                <li> <a href="#Contacts" title="link">Contact</a></li>
+	        	</ul>
+	  		</div>
+	  		<div class="col-xs-4 text-center">         
+	            <h1>Mobileapp</h1>
+	        </div>
+	    </div>
+  	</div>
+</nav>
+
 <section id="Header">
 	<div class="container">
          <div class="row">
-            <div class="col-md-5 text-left" >         
+            <div class="col-sm-6 text-left" >         
                  <h1 class="wow zoomInDown" data-wow-delay="0.1s">Introducing Mobileapp.</h1>
                  <h2 class="wow zoomInDown" data-wow-delay="0.3s">Maecenas vitae tellus sapien. Praesent</h2>
                  <h4 class="wow fadeInLeft" data-wow-delay="0.8s"><i class="fa fa-angle-right" aria-hidden="true"></i>semper scelerisque tristique a enim</h4>
@@ -51,7 +71,7 @@
                  	<h4><span id="Icon_Download"><img src="img/Icon_Download.png"></span>Download</h4>
                  </button>
              </div>
-             <div class="col-md-7 adaptive-tech">
+             <div class="col-sm-6 adaptive-tech">
                     <img class="img wow fadeInRight" data-wow-delay="1s" id="first" src="img/screen_little.png">
                     <img class="img wow fadeInRight" data-wow-delay="1.2s" id="second" src="img/screen_big.png">
                 </div>
@@ -66,8 +86,8 @@
     			<ul class="list-inline text-center">
     				<li><img src="img/Shape_2.png"></li>
     				<li><h1 id="content">Key features</h1></li>
-    				<li><img  src="img/Shape_2.png"></li><br>
-    				<li><img  src="img/Layer_25.png"></li>
+    				<li><img src="img/Shape_2.png"></li><br>
+    				<li><img src="img/Layer_25.png"></li>
     			</ul>         		
 			</div>
 		</div>
@@ -77,21 +97,21 @@
          	</div>
         </div>
      	<div class="row">
-     		<div class="col-md-4 text-left">
+     		<div class="col-sm-4 text-left">
      			<div class="row Assorted wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="200"">
-	     			<div class="col-md-2 text-left Shape">
+	     			<div class="col-md-2 col-xs-12 text-left Shape">
 	     				<img class="img-responsive" src="img/Shape1.png">
 	     			</div>
-	     			<div class="col-md-10 Amet">
+	     			<div class="col-md-10 col-xs-12 Amet">
 			     		<li><h4>Amet varius</h4></li>
 			     		<li><p>Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam a iaculis malesuada</p></li>
 	     			</div>
      			</div>
      		<div class="row Assorted wow fadeInUp" data-wow-delay="0.25s" data-wow-offset="200"">
-	     		<div class="col-md-2 text-left Shape">
+	     		<div class="col-md-2 col-xs-12 text-left Shape">
 	     			<img class="img-responsive" src="img/Shape2.png">
 	     		</div>
-	     		<div class="col-md-10 Amet">
+	     		<div class="col-md-10 col-xs-12 Amet">
 		     		<li><h4>Amet varius</h4></li>
 		     		<li><p>Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam a iaculis malesuada</p></li>
 	     		</div>
@@ -106,12 +126,12 @@
 	     		</div>
      		</div>
      	</div>
-		<div class="col-md-4 center center">
+		<div class="col-sm-4 center center" id="screen">
 			<div class="row wow fadeIn" data-wow-delay="0.3s" data-wow-offset="200"">
 				<img class="img-responsive" src="img/screen_big.png">
 			</div>
      	</div>
-		<div class="col-md-4 text-left">
+		<div class="col-sm-4 text-left">
 			<div class="row Assorted wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="200"">
 	     		<div class="col-md-2 text-left Shape">
 	     			<img class="img-responsive" src="img/Shape4.png">
@@ -167,7 +187,7 @@
 <section id="Team">
 	<div class="container">
     	<div class="row wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="200"">
-    	 	<div class="col-md-12 center title">
+    	 	<div class="col-xs-12 center title">
     			<ul class="list-inline text-center">
     				<li><img src="img/Shape_2.png"></li>
     				<li><h1 id="content">Our team</h1></li>
@@ -182,7 +202,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-3 layer wow bounceInUp" data-wow-delay="0.2s" data-wow-offset="200"">
+			<div class="col-md-3 col-xs-6 layer wow bounceInUp" data-wow-delay="0.2s" data-wow-offset="200"">
 				<ul>
 					<li><span class="descr">
 						<p><strong>Aenean ut suscipit urna. Donec efficitur</strong></p>
@@ -201,7 +221,7 @@
 				</li>
 				</ul>
 			</div>
-			<div class="col-md-3 layer wow bounceInUp" data-wow-delay="0.3s" data-wow-offset="200"">
+			<div class="col-md-3 col-xs-6 layer wow bounceInUp" data-wow-delay="0.3s" data-wow-offset="200"">
 				<ul>
 					<li><span class="descr">
 						<p><strong>Aenean ut suscipit urna. Donec efficitur</strong></p>
@@ -211,14 +231,14 @@
 							<a href="https://uk-ua.facebook.com/"><li><i class="fa fa-facebook"></i></li></a>
 							<a href="https://plus.google.com/discover"><li><i class="fa fa-google-plus"></i></li></a>
 						</ul>
-					</span><img src="img/Layer2.jpg" alt="Layer2"></li>
+					</span><img class"img-responsive" src="img/Layer2.jpg" alt="Layer2"></li>
 					<li>
 						<h4>Jon Doe</h4>
 						<p>Lead Designer</p>
 					</li>
 				</ul>
 			</div>
-			<div class="col-md-3 layer wow bounceInUp" data-wow-delay="0.4s" data-wow-offset="200"">
+			<div class="col-md-3 col-xs-6 layer wow bounceInUp" data-wow-delay="0.4s" data-wow-offset="200"">
 				<ul>
 					<li><span class="descr">
 						<p><strong>Aenean ut suscipit urna. Donec efficitur</strong></p>
@@ -228,7 +248,7 @@
 							<a href="https://uk-ua.facebook.com/"><li><i class="fa fa-facebook"></i></li></a>
 							<a href="https://plus.google.com/discover"><li><i class="fa fa-google-plus"></i></li></a>
 						</ul>
-					</span><img src="img/Layer3.jpg" alt="Layer3"></li>
+					</span><img class"img-responsive" src="img/Layer3.jpg" alt="Layer3"></li>
 					<li>
 						<h4>Jon Doe</h4>
 						<p>Lead Developer</p>
@@ -236,7 +256,7 @@
 				</ul>
 			</div>
 
-			<div class="col-md-3 layer wow bounceInUp" data-wow-delay="0.5s" data-wow-offset="200"">
+			<div class="col-md-3 col-xs-6 layer wow bounceInUp" data-wow-delay="0.5s" data-wow-offset="200"">
 				<ul>
 					<li><span class="descr">
 						<p><strong>Aenean ut suscipit urna. Donec efficitur</strong></p>
@@ -246,7 +266,7 @@
 							<a href="https://uk-ua.facebook.com/"><li><i class="fa fa-facebook"></i></li></a>
 							<a href="https://plus.google.com/discover"><li><i class="fa fa-google-plus"></i></li></a>
 						</ul>
-					</span><img src="img/Layer4.jpg" alt="Layer4"></li>
+					</span><img class"img-responsive" src="img/Layer4.jpg" alt="Layer4"></li>
 					<li>
 						<h4>Jon Doe</h4>
 						<p>Sr. UI Designer </p>
@@ -329,7 +349,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-5">
+			<div class="col-md-5 col-sm-6">
 				<h2>Get in touch with us</h2>
 				<p>Nunc urna est, tristique et varius at, pharetra nec enim. Quisque rhoncus lacus fringilla nulla sollicitudin tristique.</p>
 				<ul class="list-inline text-left socials">
@@ -342,7 +362,7 @@
 					<a href="mailto:Businessname@gmail.com">Businessname@gmail.com</a>
 				</ul>
 			</div>
-			<div class="col-md-6 col-md-offset-1">
+			<div class="col-md-6 col-md-offset-1 col-sm-6">
 				<form>
  					 <div class="form-group">
   						<div class="row">
@@ -393,34 +413,19 @@
 <script>new WOW().init();</script>
 <script src="js/jquery.sticky.js"></script>
 <script src="js/sticky1.js"></script>
-
-<script type="text/javascript">
-	(document).ready(function(){
-	    $("#menu").on("click","a", function (event) {
-
-	        //отменяем стандартную обработку нажатия по ссылке
-
-	        event.preventDefault();
-
-	        //забираем идентификатор бока с атрибута href
-
-	        var id  = $(this).attr('href'),
-
-	 
-
-	        //узнаем высоту от начала страницы до блока на который ссылается якорь
-
-	            top = $(id).offset().top;
-
-	         
-
-	        //анимируем переход на расстояние - top за 1500 мс
-
-	        $('body,html').animate({scrollTop: top}, 1500);
-
-	    });
-
-	});
+<script>
+    $(document).ready(function(){
+        $("#menu").on("click","a", function (event) {
+            //отменяем стандартную обработку нажатия по ссылке
+            event.preventDefault();
+            //забираем идентификатор бока с атрибута href
+            var id  = $(this).attr('href'),
+            //узнаем высоту от начала страницы до блока на который ссылается якорь
+                top = $(id).offset().top;
+            //анимируем переход на расстояние - top за 1500 мс
+            $('body,html').animate({scrollTop: top}, 500);
+        });
+    });
 </script>
 
 </body>

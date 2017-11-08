@@ -67,23 +67,6 @@
          url('fonts/OpenSansExtraBold.svg#OpenSansExtraBold') format('svg');
 }
 
-
-
-
-
-/*h1 – 32 пикселя.
-
-h2 – 24 пикселя.
-
-h3 – 19 пикселям.
-
-h4 – 16 пикселей.
-
-h5 – 13 пикселей.
-
-h6 – 11 пикселей.*/
-
-
 body {
     vertical-align: center;
     overflow-x:  hidden;
@@ -98,7 +81,6 @@ body {
 
 nav.navbar-fixed-top{
     margin-top:29px;
-    height:80px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     .container{
@@ -138,11 +120,11 @@ nav.navbar-fixed-top{
             -webkit-box-shadow: 1px 9px 15px -9px rgba(0,0,0,0.63);
             -moz-box-shadow: 1px 9px 15px -9px rgba(0,0,0,0.63);
             box-shadow: 1px 9px 15px -9px rgba(0,0,0,0.63);
-            }
         }
     }
+}
 
-#Header{
+section#Header{
     background:url("../img/bground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,28 +174,27 @@ nav.navbar-fixed-top{
             margin: auto 20px;  
         }
     }
-    
-   .adaptive-tech {
-            position:absolute;
-            z-index:4;
-                img{
-                    &#first{
-                        position:absolute;
-                        left: 640px;
-                        z-index:6;    
-                            }
-                     &#second{
-                        position:absolute;
-                        left: 700px;
-                        top: -63px;
-                        z-index:5;    
-                            }
-                        }
-                    }
-                }
-    
 
-#Key_Features{
+   .adaptive-tech {
+        position:absolute;
+        z-index:4;
+        img{
+            &#first{
+                position:absolute;
+                left: 640px;
+                z-index:6;    
+            }
+            &#second{
+                position:absolute;
+                left: 700px;
+                top: -63px;
+                z-index:5;    
+            }
+        }
+    }
+}
+
+section#Key_Features{
     position:relative;
     z-index:2;
     margin-bottom:70px;
@@ -227,9 +208,9 @@ nav.navbar-fixed-top{
     .title{
         margin-top:120px;
         margin-bottom:65px;
-    }
-    img {
-        margin-top: -10px;
+        img {
+            margin-top: -10px;
+        }
     }
     .paragraph{
         margin-bottom:80px;
@@ -237,9 +218,7 @@ nav.navbar-fixed-top{
         font-family: 'OpenSansRegular';
     }
 
-    .Shape{
-        margin-top:20px;
-    }
+   
     .Amet{
         h4{
             font-size:18px;
@@ -252,9 +231,13 @@ nav.navbar-fixed-top{
     }
     .Assorted{
         margin-bottom:110px;
+         .Shape{
+            margin-top:20px;
+            }
     }
-    }
-#Video{
+}
+
+section#Video{
     background-color:#31D4E7;
     h3 {
         margin-top:74px;
@@ -304,7 +287,7 @@ nav.navbar-fixed-top{
       
    }
 
-#Team{
+section#Team{
     ul{
         padding:0;
     }
@@ -352,13 +335,14 @@ nav.navbar-fixed-top{
             max-width: 100%;
             display:block;
             }
-        i{  
-            color:white;
-            }
-        a{  
-            padding-top:70px;
+       
+        a{ 
             width:40px;
             height:40px;
+             i{  
+                color:white;
+                padding-top:10px;
+                }
             }
         }
         p{
@@ -380,20 +364,25 @@ nav.navbar-fixed-top{
         -o-transition: all .5s;
         transition: all .5s;
         ul {
-            margin-top:85px;
-            i {
-                padding-top:10px;
-                width:40px;
-                height:40px;
-                background-color:rgba(0, 0, 0, 0.4);
-                font-size:20px;
+            margin-left:0px;
+            margin-top: 30%;
+            a{
+ 
+                i {
+                    padding-top:10px;
+                    width:40px;
+                    height:40px;
+                    background-color:rgba(0, 0, 0, 0.4);
+                    font-size:20px;
+                    }
                 }
             }
 
         p{ 
-            padding-top:15px;
-            padding-left:5px;
-            padding-right:5px;
+            padding-top:8%;
+            padding-left:9%;
+            padding-right:9%;
+            margin-bottom:0px;
             text-align:center;
             color:#fff;
             font-family: 'OpenSansRegular';
@@ -402,7 +391,7 @@ nav.navbar-fixed-top{
         }
     }
 }
-#Customers{
+section#Customers{
     padding-top:140px;
     padding-bottom:190px;
     .carousel-indicators li{
@@ -457,7 +446,7 @@ nav.navbar-fixed-top{
         }
     }
 
-#Contacts{
+section#Contacts{
     background:url("../img/contacts.jpg");
     background-size:cover;
     color:#fff;
@@ -563,3 +552,19 @@ nav.navbar-fixed-top{
         }
     }
 }
+
+@import "media.less";
+
+
+
+/*h1 – 32 пикселя.
+
+h2 – 24 пикселя.
+
+h3 – 19 пикселям.
+
+h4 – 16 пикселей.
+
+h5 – 13 пикселей.
+
+h6 – 11 пикселей.*/

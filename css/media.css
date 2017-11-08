@@ -1,0 +1,557 @@
+/*============    	АДАПТИВ    ===========*/
+.dropdown-toggle {
+  border: 1px solid #000;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: #1AB798;
+  margin-left: -10px;
+}
+.dropdown-toggle:hover {
+  background-color: #1AB798;
+  color: #fff;
+}
+.dropdown-toggle i {
+  margin-top: 15px;
+  font-size: 16px;
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  nav.navbar-fixed-top {
+    margin-top: 10px;
+  }
+  nav.navbar-fixed-top .container h1 {
+    font-size: 20px;
+    margin: 12px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu {
+    margin-top: 25px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu li {
+    padding: 10px;
+  }
+  nav.navbar-fixed-top.sticky {
+    margin-top: 0px;
+    position: fixed;
+    height: 0px;
+  }
+  nav.navbar-fixed-top.sticky .container {
+    -webkit-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+  }
+  section#Header {
+    padding-top: 130px;
+  }
+  section#Header h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  section#Header h2 {
+    font-size: 13px;
+    text-align: center;
+  }
+  section#Header h4 {
+    font-size: 12px;
+  }
+  section#Header button {
+    margin: 80px auto 0px auto;
+  }
+  section#Header button h4 {
+    font-size: 16px;
+  }
+  section#Key_Features {
+    margin-bottom: 20px;
+  }
+  section#Key_Features h1 {
+    font-size: 16px;
+  }
+  section#Key_Features .title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  section#Key_Features .title img {
+    margin-top: -5px;
+  }
+  section#Key_Features .paragraph p {
+    font-size: 12px;
+  }
+  section#Key_Features .Amet h4 {
+    font-size: 14px;
+  }
+  section#Key_Features .Amet p {
+    font-size: 12px;
+  }
+  section#Key_Features .Assorted {
+    margin-bottom: 0px;
+  }
+  section#Video {
+    text-align: center;
+  }
+  section#Video h3 {
+    font-size: 18px;
+  }
+  section#Video h4 {
+    font-size: 12px;
+  }
+  section#Video li {
+    height: 50px;
+    width: 50px;
+  }
+  section#Video ul {
+    align: center;
+    text-align: center;
+  }
+  section#Video ul.list-inline a {
+    margin: auto 8px ;
+  }
+  section#Video .video {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  section#Team {
+    text-align: center;
+    margin: 0 auto;
+  }
+  section#Team .title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  section#Team .title h1 {
+    font-size: 16px;
+  }
+  section#Team .title h1 img {
+    margin-top: -5px;
+  }
+  section#Team h4 {
+    font-size: 14px;
+  }
+  section#Team .layer {
+    margin-top: 50px;
+    width: 99%;
+  }
+  section#Customers {
+    padding-top: 30px;
+    padding-bottom: 120px;
+  }
+  section#Customers h1 {
+    font-size: 16px;
+  }
+  section#Customers .title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  section#Customers .title img {
+    margin-top: -5px;
+  }
+  section#Customers .item h3 {
+    font-size: 16px;
+  }
+  section#Customers .item h5 {
+    margin: 5px auto 20px auto;
+  }
+  section#Customers .item p {
+    font-size: 10px;
+  }
+  section#Contacts {
+    text-align: center;
+  }
+  section#Contacts .title {
+    margin-top: 20x;
+    margin-bottom: 50px;
+  }
+  section#Contacts .title img {
+    margin-top: -5px;
+  }
+  section#Contacts .title h1 {
+    font-size: 16px;
+  }
+  section#Contacts h2 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  section#Contacts p {
+    font-size: 12px;
+  }
+  section#Contacts ul {
+    text-align: center;
+  }
+  section#Contacts .form-group input#Name {
+    margin-bottom: 30px;
+  }
+  section#Contacts .form-group button.btn-default {
+    font-size: 14px;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  section#Contacts #Footer p,
+  section#Contacts #Footer a {
+    text-align: center;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  nav.navbar-fixed-top {
+    margin-top: 10px;
+  }
+  nav.navbar-fixed-top .container h1 {
+    font-size: 20px;
+    margin: 12px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu {
+    margin-top: 25px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu li {
+    padding: 10px;
+  }
+  nav.navbar-fixed-top.sticky {
+    margin-top: 0px;
+    position: fixed;
+    height: 0px;
+  }
+  nav.navbar-fixed-top.sticky .container {
+    -webkit-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+  }
+  section#Header {
+    padding-top: 130px;
+  }
+  section#Header h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  section#Header h2 {
+    font-size: 13px;
+    text-align: center;
+  }
+  section#Header h4 {
+    font-size: 12px;
+  }
+  section#Header button {
+    margin: 80px auto 0px auto;
+  }
+  section#Header button h4 {
+    font-size: 16px;
+  }
+  section#Key_Features {
+    margin-bottom: 20px;
+  }
+  section#Key_Features h1 {
+    font-size: 16px;
+  }
+  section#Key_Features .title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  section#Key_Features .title img {
+    margin-top: -5px;
+  }
+  section#Key_Features .paragraph p {
+    font-size: 12px;
+  }
+  section#Key_Features .Amet h4 {
+    font-size: 14px;
+  }
+  section#Key_Features .Amet p {
+    font-size: 12px;
+  }
+  section#Key_Features .Assorted {
+    margin-bottom: 0px;
+  }
+  section#Video {
+    text-align: center;
+  }
+  section#Video h3 {
+    font-size: 18px;
+  }
+  section#Video h4 {
+    font-size: 12px;
+  }
+  section#Video li {
+    height: 50px;
+    width: 50px;
+  }
+  section#Video ul {
+    align: center;
+    text-align: center;
+  }
+  section#Video ul.list-inline a {
+    margin: auto 8px ;
+  }
+  section#Video .video {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  section#Team {
+    text-align: center;
+    margin: 0 auto;
+  }
+  section#Team .title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  section#Team .title h1 {
+    font-size: 16px;
+  }
+  section#Team .title h1 img {
+    margin-top: -5px;
+  }
+  section#Team h4 {
+    font-size: 14px;
+  }
+  section#Team .layer {
+    text-align: center;
+    margin-top: 50px;
+    width: 99%;
+  }
+  section#Team .layer li {
+    display: block;
+  }
+  section#Team .layer li img {
+    margin: 0 auto;
+  }
+  section#Customers {
+    padding-top: 30px;
+    padding-bottom: 120px;
+  }
+  section#Customers h1 {
+    font-size: 16px;
+  }
+  section#Customers .title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  section#Customers .title img {
+    margin-top: -5px;
+  }
+  section#Customers .item h3 {
+    font-size: 16px;
+  }
+  section#Customers .item h5 {
+    margin: 5px auto 20px auto;
+  }
+  section#Customers .item p {
+    font-size: 10px;
+  }
+  section#Contacts {
+    text-align: center;
+  }
+  section#Contacts .title {
+    margin-top: 20x;
+    margin-bottom: 50px;
+  }
+  section#Contacts .title img {
+    margin-top: -5px;
+  }
+  section#Contacts .title h1 {
+    font-size: 16px;
+  }
+  section#Contacts h2 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  section#Contacts p {
+    font-size: 12px;
+  }
+  section#Contacts ul {
+    text-align: center;
+  }
+  section#Contacts .form-group input#Name {
+    margin-bottom: 30px;
+  }
+  section#Contacts .form-group button.btn-default {
+    font-size: 14px;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  section#Contacts #Footer p,
+  section#Contacts #Footer a {
+    text-align: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  nav.navbar-fixed-top {
+    margin-top: 10px;
+  }
+  nav.navbar-fixed-top .container h1 {
+    font-size: 20px;
+    margin: 12px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu {
+    margin-top: 25px;
+  }
+  nav.navbar-fixed-top .container ul.dropdown-menu li {
+    padding: 10px;
+  }
+  nav.navbar-fixed-top.sticky {
+    margin-top: 0px;
+    position: fixed;
+    height: 0px;
+  }
+  nav.navbar-fixed-top.sticky .container {
+    -webkit-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+    box-shadow: 1px 9px 15px -9px rgba(0, 0, 0, 0.63);
+  }
+  section#Header {
+    padding-top: 130px;
+  }
+  section#Header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  section#Header h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  section#Header h4 {
+    font-size: 16px;
+  }
+  section#Header button {
+    margin: 80px auto 0px auto;
+  }
+  section#Header button h4 {
+    font-size: 16px;
+  }
+  section#Key_Features {
+    margin-bottom: 20px;
+  }
+  section#Key_Features #screen_big {
+    margin-top: 60px;
+  }
+  section#Key_Features .title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  section#Key_Features .title img {
+    margin-top: -5px;
+  }
+  section#Key_Features .paragraph p {
+    font-size: 16px;
+  }
+  section#Key_Features .Amet h4 {
+    font-size: 14px;
+  }
+  section#Key_Features .Amet p {
+    font-size: 9px;
+  }
+  section#Key_Features .Assorted {
+    margin-bottom: 0px;
+  }
+  section#Video {
+    text-align: center;
+  }
+  section#Video li {
+    height: 50px;
+    width: 50px;
+  }
+  section#Video ul {
+    align: center;
+    text-align: center;
+  }
+  section#Video ul.list-inline a {
+    margin: auto 8px ;
+  }
+  section#Video .video {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  section#Team {
+    text-align: center;
+    margin: 0 auto;
+  }
+  section#Team .title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  section#Team .title img {
+    margin-top: -5px;
+  }
+  section#Team h4 {
+    font-size: 14px;
+  }
+  section#Team .layer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  section#Team .layer li img {
+    margin: 0 auto;
+  }
+  section#Team .layer li p {
+    font-size: 6px;
+  }
+  section#Team .layer span.descr ul {
+    margin-top: 10px;
+  }
+  section#Team .layer span.descr ul i {
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+  section#Team .layer span.descr p {
+    padding-top: 0px;
+    font-size: 6px;
+  }
+  section#Customers {
+    padding-top: 30px;
+    padding-bottom: 120px;
+  }
+  section#Customers .title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  section#Customers .title img {
+    margin-top: -5px;
+  }
+  section#Customers .item h5 {
+    margin: 5px auto 20px auto;
+  }
+  section#Customers .item p {
+    font-size: 10px;
+  }
+  section#Contacts {
+    text-align: center;
+  }
+  section#Contacts .title {
+    margin-top: 20x;
+    margin-bottom: 50px;
+  }
+  section#Contacts .title img {
+    margin-top: -5px;
+  }
+  section#Contacts .title h1 {
+    font-size: 16px;
+  }
+  section#Contacts h2 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  section#Contacts p {
+    font-size: 12px;
+  }
+  section#Contacts ul {
+    text-align: center;
+  }
+  section#Contacts .form-group input#Name {
+    margin-bottom: 30px;
+  }
+  section#Contacts .form-group button.btn-default {
+    font-size: 14px;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  section#Contacts #Footer p,
+  section#Contacts #Footer a {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
